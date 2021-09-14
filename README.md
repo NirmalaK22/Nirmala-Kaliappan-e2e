@@ -23,10 +23,16 @@ steps to be followed:
    C) Direct installation method by using this link https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download
            RESULT: direct download contains all packages,binaries,etc. so no need to worry about other things.
 
-(NOTE: I installed using direct download)
 
 3. Open Cypress
     RESULT: 1. Press windows key->type cmd,Go to the folder(where cypress installed-step 2.1 )
             2. Type npx cypress open  or yarn run cypress open  -This will open cypress
 
 4. There you might see some default examples to go through the working procedures of Cypress Test.
+
+
+
+[NOTE: cypress.json contains defaulttime settings for browser, chrome websecurity is disabled becasue this task doesn't need to authentiacte user credentials.sometimes it is not working.you can try regedit->software\Policies\Google\Chrome->CommandLineFlagSecurityWarningsEnabled to set the value 0]
+
+
+(REFERENCES: If something needed please refer https://docs.cypress.io/)
